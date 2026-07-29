@@ -1,7 +1,10 @@
-# Use this workspace to collaborate
 workspace:
   id: 9228b9c6-6bc7-4f95-aede-e229ba9164d9
-
 localResources:
   specs:
     - ../contract/index.yaml
+cloudResources:
+  collections:
+    ../postman/collections/UserAPI - Integration Test Suite: 56941071-c64061cb-b162-432c-bc66-2965a94ad78e
+  environments:
+    ../postman/environments/Production.environment.yaml: 56941071-cc8a23d7-ccd2-4e58-9c12-e99f99859c44
